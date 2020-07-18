@@ -1,0 +1,24 @@
+
+.jumbotron {
+  background-color: aqua;
+  color: darkorange;
+}
+
+.logo {
+  font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+.logo-small {
+  color: lightgreen;
+  font-size: 50px;
+}
+
+.logo {
+  color: lightskyblue;
+  font-size: 200px;
+}

@@ -1,7 +1,7 @@
 
 .jumbotron {
-  background-color: rgb(32, 61, 61) ;
-  color: lawngreen;
+  background-color: #e0D8c3;
+  color: black;
 }
 
 .logo {
@@ -15,7 +15,7 @@
 }
 
 .logo-small {
-  color: lightskyblue;
+  color: darkorange;
   font-size: 50px;
 }
 .logo {
@@ -29,7 +29,7 @@
 
 .navbar {
   margin-bottom: 0;
-  background-color: lightblue;
+  background-color: #0D97AC;
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
@@ -50,4 +50,14 @@
 .navbar-default .navbar-toggle {
   border-color: transparent;
   color: #fff !important;
+}
+
+.font{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: normal;
+  font-size: large;
+}
+
+.webpage {
+  background: #e0D8c3;
 }

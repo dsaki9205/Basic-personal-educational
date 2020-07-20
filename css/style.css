@@ -61,3 +61,10 @@
 .webpage {
   background: #e0D8c3;
 }
+
+.paragraph{
+text-align:":left";
+}
+.carousel-inner > .item > img{
+  margin:auto;
+  }

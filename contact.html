@@ -8,38 +8,50 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/style.css" />
-</head>
+  
+  </head>
 <body class="webpage">
   <div class="container-fluid">
     <div class="jumbotron">
     <h2 class="text-center">CONTACT US</h2>
   </div>
-  <br></br>
-  <p class="text-center"><b>Email Us with any question. We would be Happy to answer your questions. </b></p>
-  <br></br>
-    <div class="row">
-      <div class="row">
-        <div class="column col-sm-4">
-          <img src="image/Contact-Us.jpg" style="width:60%">
-        </div>
-      <div class="col-sm-7">
-        <div class="row">
-          <div class="col-sm-6 form-group">
-            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-          </div>
-          <div class="col-sm-6 form-group">
-            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-          </div>
-        </div>
-        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-        <div class="row">
-          <div class="col-sm-12 form-group">
-            <button class="btn btn-default pull-right" type="submit">Send</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div class="container form-top">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+				<div class="panel panel-danger">
+					<div class="panel-body">
+						<form id="reused_form">
+						 	<div class="form-group">
+						 		<label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
+						 		<input type="text" name="name" class="form-control" placeholder="Enter Name">
+						 	</div>
+						 	<div class="form-group">
+						 		<label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+						 		<input type="email" name="email" class="form-control" placeholder="Enter Email">
+						 	</div>
+						 	<div class="form-group">
+						 		<label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
+						 		<textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
+						 	</div>
+
+
+						 	<div class="form-group">
+						 		<button class="btn btn-raised btn-block btn-danger">Post →</button>
+						 	</div>
+						</form>
+						<div id="error_message" style="width:100%; height:100%; display:none; ">
+						<h4>Error</h4>
+						Sorry there was an error sending your form.
+						</div>
+						<div id="success_message" style="width:100%; height:100%; display:none; ">
+						<h2>Success! Your Message was Sent Successfully.</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="myscripts.js"></script>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">

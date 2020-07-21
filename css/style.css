@@ -4,9 +4,7 @@
   color: black;
 }
 
-.logo {
-  font-size: 200px;
-}
+
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
@@ -23,16 +21,13 @@
   font-size: 100px;
 }
 
-.serif{
-  font-family:"times New Roman", 'Times New Roman', Times, serif
-}
 
 .navbar {
   margin-bottom: 0;
   background-color: #0D97AC;
   z-index: 9999;
   border: 0;
-  font-size: 12px !important;
+  font-size: 16px !important;
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
@@ -50,16 +45,14 @@
 .navbar-default .navbar-toggle {
   border-color: transparent;
   color: #fff !important;
+ 
 }
 
-.font{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-style: normal;
-  font-size: large;
-}
+
 
 .webpage {
   background: #e0D8c3;
+  font-family:Arial, Helvetica, sans-serif
 }
 
 .paragraph{
@@ -68,3 +61,15 @@ text-align:":left";
 .carousel-inner > .item > img{
   margin:auto;
   }
+
+ 
+  .default-heading, .menu-container {
+    display:inline-block;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background :#e0d8c3;
+  color: black;
+  font-size: 30px;
+}

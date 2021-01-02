@@ -73,3 +73,20 @@ text-align:":left";
   color: black;
   font-size: 30px;
 }
+
+.footerWrap {
+  width:100%;
+  position:fixed;
+  bottom: 0px;
+}
+.footer {
+  width:400px;
+  margin:auto;
+}
+.footerContent {
+  float:left;
+  width:100%;
+  background-color:#e0d8c3;
+  padding:20px 0;
+}
+.footer p {float:left; width:100%; text-align:center; }

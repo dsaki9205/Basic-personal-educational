@@ -74,19 +74,11 @@ text-align:":left";
   font-size: 30px;
 }
 
-.footerWrap {
-  width:100%;
-  position:fixed;
-  bottom: 0px;
+
+div.Author{
+  position: fixed;
+  bottom:5px;
+  width: 100%;
+  left:0px;
+  height:25px;
 }
-.footer {
-  width:400px;
-  margin:auto;
-}
-.footerContent {
-  float:left;
-  width:100%;
-  background-color:#e0d8c3;
-  padding:20px 0;
-}
-.footer p {float:left; width:100%; text-align:center; }
